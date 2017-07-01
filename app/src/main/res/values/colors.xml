@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8d6e63</color>
+    <color name="colorPrimaryDark">#5f4339</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="player">#360ec5</color>
+    <color name="gamecol">#FFCA28</color>
+    <color name="bgwin">#000000</color>
+    <color name="drawbg">#977897</color>
+</resources>

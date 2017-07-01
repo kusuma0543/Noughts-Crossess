@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/backhome"
+    >
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Player 1 "
+            android:textSize="@dimen/heading"
+            android:layout_marginTop="99dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffff"
+            android:id="@+id/t1"/>
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/player1"
+
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="240dp">
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="O"
+android:buttonTint="#ffff"
+                android:textColor="#fff"
+                android:textSize="@dimen/heading"
+                android:checked="true"
+                android:id="@+id/zero"/>
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="X"
+                android:buttonTint="#ffff"
+                android:textColor="#fff"
+                android:textSize="@dimen/heading"
+                android:id="@+id/cross"/>
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Player 2 "
+            android:textSize="@dimen/heading"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffff"
+            android:id="@+id/t2"/>
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/player2"
+            android:layout_marginTop="43dp"
+            android:layout_marginLeft="240dp">
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="O"
+                android:textColor="#fff"
+                android:buttonTint="#ffff"
+
+                android:textSize="@dimen/heading"
+                android:id="@+id/zero1"/>
+
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="X"
+                android:buttonTint="#ffff"
+                android:textColor="#fff"
+                android:checked="true"
+                android:textSize="@dimen/heading"
+                android:id="@+id/cross1"/>
+        </RadioGroup>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/about"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="65dp"
+      android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+android:background="@drawable/accc"
+        android:paddingLeft="0dp"
+        android:paddingRight="10dp"
+        />
+    <Button
+        android:id="@+id/play"
+        android:layout_height="69dp"
+        android:layout_width="match_parent"
+
+       android:background="@drawable/startgamebut"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+    />
+    </LinearLayout>

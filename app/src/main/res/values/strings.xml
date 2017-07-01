@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToeTwoPlayer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello_world">Tic Tac Toe</string>
+    <string name="title_activity_win">Win</string>
+    <string name="title_activity_draw_game">DrawGame</string>
+    <string name="title_activity_about">About</string>
+</resources>
